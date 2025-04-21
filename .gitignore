@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+user-frontend/node_modules/
+frontend-admin/node_modules/
+backend/node_modules/
+
+# Build
+client/npm run dev
+client/npm run dev
+
+# Env files
+.env
+user-frontend/.env/VITE_API_URL=http://localhost:5000/api
+VITE_API_HOST=http://localhost:5000
+
+VITE_STRIPE_PUBLISHABLE_KEY=pk_test_51RB71WRcA6pRtiQcOmPsjet03LPHai1FRBYr4vg1T4ItGjuCyyptFdtNxNCPlunKtSyJZgsHGE1I3RronTb3JKQt00EPZ7GxSW
+# VITE_API_URL=http://localhost:5000
+frontend-admin/.env/VITE_API_URL=http://localhost:5000/api
+
+VITE_API_HOST=http://localhost:5000
+backend/.env/MONGO_URI=mongodb://localhost:27017/authDB
+PORT=5000
+
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=chaudharisahil652@gmail.com
+SMTP_PASS=rhto lctw xqkz unly
+JWT_SECRET=your_secret_key
+
+
+
+CLIENT_URL=http://localhost:5173
+
+
